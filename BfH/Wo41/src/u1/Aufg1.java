@@ -9,8 +9,7 @@ public class Aufg1 {
 		System.out.print("\nCircle calculation ");
 		System.out.print("\n==================");
 		System.out.print("\nPlease enter the radius of the circle");
-		
-		
+
 		if (inp.hasNextFloat() == true) {
 			double inputRadius = inp.nextFloat();
 			double area = inputRadius * inputRadius * Math.PI;
